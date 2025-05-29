@@ -1,5 +1,6 @@
 'use client';
 import { useState } from 'react';
+import AiExplainer from './components/AiExplainer';
 
 export default function Home() {
   const [zip, setZip] = useState('');
@@ -63,6 +64,7 @@ export default function Home() {
           </div>
         )}
       </form>
+      <AiExplainer />
     </main>
   );
 }
